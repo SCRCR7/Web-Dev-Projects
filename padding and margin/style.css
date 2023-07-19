@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    overflow: hidden;
+    margin: 100px 350px 150px 400px;
+    padding: 40px;
+}
+p{
+    text-align: center;
+    background-color: aliceblue;
+    color: green;
+    padding: 30px 3px 20px 3px;
+    margin: 50px 90px 40px 90px;
+    border: 2px solid green;
+    
+    
+}
+.child{
+    padding: 30px;
+    margin:200px 0 0px 0;
+    border: 1px solid green;
+
+}

@@ -1,0 +1,128 @@
+Postion 
+position in html mean how you set your boxes on website 
+property 
+postion : value
+relative 
+absolute 
+normal : mean it by default it will goes in linear 
+if we did not set the widht it will took all spaces in browser 
+
+relative mean we use offset property 
+for left and right 20px 30px 
+for top and bottom 50 px 70 px
+mean we use it for pargraph 
+
+absoulte 
+mean heading 
+use for heading 
+
+top bottom 
+left right 
+
+Fixed Positioning
+position:fixe
+It positions the element in 
+relation to the browser window. 
+Therefore, when a user scrolls 
+down the page, it stays in the 
+exact same place. It is a good 
+idea to try this example in your 
+browser to see the effect
+
+this example, the heading 
+has been positioned to the top 
+left hand corner of the browser 
+window. When the user scrolls 
+down the page, the paragraphs 
+disappear behind the heading
+
+Overlaping Elements
+
+rticle
+369 LAYOUT
+h1 {
+position: fixed;
+top: 0px;
+left: 0px;
+margin: 0px;
+padding: 10px;
+width: 100%;
+background-color: #efefef;
+z-index: 10;}
+p {
+position: relative;
+top: 70px;
+left: 70px;}
+chapter-15/z-index.html CSS When you use relative, fixed, or 
+absolute positioning, boxes can 
+overlap. If boxes do overlap, the 
+elements that appear later in the 
+HTML code sit on top of those 
+that are earlier in the page. 
+If you want to control which 
+element sits on top, you can use 
+the z-index property. Its value 
+is a number, and the higher the 
+number the closer that element 
+is to the front. For example, an 
+element with a z-index of 10
+will appear over the top of one 
+with a z-index of 5.
+This example looks similar to 
+the one on page 368, but it 
+uses relative positioning for 
+the <p> elements. Because 
+the paragraphs are relatively 
+positioned, by default they 
+would appear over the top of the 
+heading as the user scrolls down 
+the page. To ensure that the 
+<h1> element stays on top, we 
+use the z-index property on the 
+rule for the <h1> element.
+The z-index is sometimes 
+referred to as the stacking 
+context (as if the blocks have 
+been stacked on top of each 
+other on a z axis). If you are 
+familiar with desktop publishing 
+packages, it is the equivalent 
+of using the 'bring to front' and 
+'send to back' features.
+Overlapping Elements
+z-index
+
+
+Floating Elements
+float
+
+the float property allows you 
+to take an element in normal 
+flow and place it as far to the 
+left or right of the containing 
+element as possible.
+
+When you use the float
+property, you should also use the 
+width property to indicate how 
+wide the floated element should 
+be. If you do not, results can be 
+inconsistent but the box is likely 
+to take up the full width of the 
+containing element (just like it 
+would in normal 
+
+
+in this example, a 
+<blockquote> element is 
+used to hold a quotation. It's 
+containing element is the 
+<body> element
+
+
+
+
+
+
+
+

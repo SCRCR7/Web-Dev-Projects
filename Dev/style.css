@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+
+}
+ul{
+            
+    border: 1px solid green;
+background-color:black;
+display: block; 
+overflow: hidden;
+}
+
+
+li{
+    color: white;
+    float: left;
+    list-style: none;
+    border: 1px solid green;
+    margin: 5px;
+    padding: 10px;
+    float: left;
+    align-items: center ;
+}
+li a{
+
+}

@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+body{
+    margin: 0;
+    padding: 0px;
+}
+header{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+}
+ul{
+    text-decoration: none;
+    text-align: right;
+    overflow: hidden;
+    position:fixed;
+    
+    padding:10px;
+    background-color: black;
+    
+
+}
+li{
+    color: white;
+    /* border: 1px solid green ; */
+    padding: 5px;
+    margin: 5px;
+    display: inline;
+
+}
+ li a:hover{
+    color:white;
+    background-color: red;
+
+ }
+li a:not(:active){
+    color: white;
+}
+:active{
+    background-color: green;
+}
