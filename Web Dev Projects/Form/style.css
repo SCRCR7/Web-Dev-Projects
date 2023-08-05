@@ -1,0 +1,67 @@
+h1{
+    border: 2px solid black;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    border-style: dashed;
+border-color: palevioletred;
+color: red;
+
+margin: auto;
+margin-top: 100px;
+padding: 10px;
+animation-fill-mode: forwards;
+
+}
+h1::after,h1::before{
+    animation: backwards;
+}
+fieldset{
+    width: 310px;
+    background-color: #d6d6d6;
+    border: none;
+    
+    margin: 100px auto 100px;
+    margin-bottom: 80px;
+    
+}
+legend{
+    color: #666666;
+}
+.submit{
+    margin-top: 10px;
+    border-radius: 10px;
+    outline:none;
+    border: none;
+}
+.submit:focus,
+.submit:hover{
+    color:white;
+    background-color: rgb(151, 61, 61);
+    transition: 1.2s;
+    cursor: pointer;
+}
+.title{
+    float: left;
+ 
+    width: 160px;
+    clear: both;
+}
+input[type=text]{
+    width: 100px;
+    outline: none;
+    border: 1px solid #d6d6d6;
+    padding: 2px;
+}
+input[type="text"]:focus,
+ input[type="text"]:hover {
+ background-color: #d0e2f0;
+ border: 1px solid #999
+}
+input[type=submit]{
+    text-align: right;
+    padding: 5px;
+    background-color:lightblue;
+    transition: .5s;
+}

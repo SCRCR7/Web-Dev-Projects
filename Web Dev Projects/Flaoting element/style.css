@@ -1,0 +1,38 @@
+/* blockquote {
+    float: right;
+    width: 270px;
+    font-size: 130%;
+    font-style: italic;
+    font-family: Georgia, Times, serif;
+    margin: 0px 0px 4px 15px;
+    margin-right: 20px;
+    /* border: 2px solid black; 
+    padding: 10px;
+    border-top: 1px solid #665544;
+    border-bottom: 1px solid #665544;} */
+    /* p{
+     font-size: 30px;
+    } */
+    body {
+        /* width: 750px; */
+        font-family: Arial, Verdana, sans-serif;
+        color: #665544;}
+        p {
+        width: 230px;
+        float: left;
+        margin: 5px;
+        padding: 5px;
+        background-color: #efefef;}
+        blockquote{
+            float: right;
+            width: 270px;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            padding: 10px;
+            margin-left: 1000px
+           
+
+        }
+        .clear{
+            clear: left;
+        }

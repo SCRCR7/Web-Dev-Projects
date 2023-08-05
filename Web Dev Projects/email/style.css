@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding:0;
+    border:border-box;
+}
+.email{
+    width: 400px;
+    background-color: white;
+
+}
+input[type=text]{
+    width: 200px;
+    height: 25px;
+    margin-left: 500px;
+    border-radius: 3px;
+    border: 2px solid black;
+    color: black;
+}
+input[type=text]:hover{
+    border: 2px solid yellow;
+    outline: 2px solid pink;
+}

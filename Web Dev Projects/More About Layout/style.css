@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    border: 2px solid black ;
+    
+}
+header {
+    border: 1px solid black;
+}
+header h1{
+    border: 1px solid black ;
+    float: left;
+    width: 800px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 4px;
+    margin-left: 200px;
+    text-align: center;
+    background: linear-gradient(to left red,yellow);
+}
+ul{
+    border: 1px solid black;
+    width: 95%;
+    float: right;
+ 
+    padding: 30px;
+    background-color: #3e2f2f;
+    margin-top: 3px;
+    
+    
+
+}
+ul li{
+    list-style: none;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 38%;
+    right: 80%;
+    border: none;
+    box-sizing: border-box;
+}
+ul li a{
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border: none;
+    color: white ;
+    opacity: 1;
+
+
+} 
+ul li a:hover{
+    color: white;
+    background-color: green;
+}
+.section{
+    
+    display: inline-block;
+    width: 1000px;
+
+    padding: 30px;
+    border: 1px solid black;
+    margin: 10px;
+    
+    
+
+}
+section{
+display: inline-block;
+    border: 1px solid black;
+    padding: 50px;
+    margin: 20px;
+    float: left;
+    width: 60px;
+    position: relative;
+    left: 25%;
+    text-align: center;
+    color: white;
+    background-color: green;
+    clear: both;
+    
+    
+
+}
+.aside{
+    float: right;
+    border: 1px solid black;
+    width: 200px;
+    height: 400px;
+    margin-right: 20px;
+    margin-top: 20px;
+    clear: both;
+}
+.footer{
+    
+    border: 1px solid black;
+    overflow: hidden;
+}

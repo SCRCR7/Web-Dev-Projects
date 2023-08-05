@@ -1,0 +1,44 @@
+Postion 
+position in html mean how you set your boxes on website 
+property 
+postion : value
+relative 
+absolute 
+normal : mean it by default it will goes in linear 
+if we did not set the widht it will took all spaces in browser 
+
+relative mean we use offset property 
+for left and right 20px 30px 
+for top and bottom 50 px 70 px
+mean we use it for pargraph 
+
+absoulte 
+mean heading 
+use for heading 
+
+top bottom 
+left right 
+
+Fixed Positioning
+position:fixe
+It positions the element in 
+relation to the browser window. 
+Therefore, when a user scrolls 
+down the page, it stays in the 
+exact same place. It is a good 
+idea to try this example in your 
+browser to see the effect
+
+this example, the heading 
+has been positioned to the top 
+left hand corner of the browser 
+window. When the user scrolls 
+down the page, the paragraphs 
+disappear behind the heading
+
+
+
+
+
+
+

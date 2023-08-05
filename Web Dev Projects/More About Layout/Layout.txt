@@ -1,0 +1,10 @@
+Simple Concept of the layout to postion where the element 
+is is represted by column 
+mean how many element u place in one row and how many column u want to use 
+
+we use 5 tags inside layout to understand 
+number 1
+header : mostly use for giving heading to website 
+section : which will be in second place 
+third aside 
+footer

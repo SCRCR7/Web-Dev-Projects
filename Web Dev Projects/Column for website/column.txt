@@ -1,0 +1,6 @@
+column is simply use for to set the element to next to each other 
+
+it have three propertiues 
+float : which will be postion it 
+widht : it will set the width of the page 
+margin:gap between it 

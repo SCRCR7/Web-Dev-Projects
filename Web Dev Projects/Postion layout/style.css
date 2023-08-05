@@ -1,0 +1,41 @@
+
+body 
+
+{
+    /* width: 750px; */
+    /* border: 1px solid black; */
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 30px;
+    color: #665544;}
+    h1 {
+    background-color: #efefef;
+    padding: 10px;}
+    /* p { */
+    /* width: 450px; */
+/* border: 1px solid black;*/
+/* }  */
+/* p1{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    border: 1px solid black;
+} */
+/*
+h1 {
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    width: 250px;} */
+    h1 {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        padding: 20px;
+        margin: 0px;
+        /* here it is use because if we did not set it it will give margin by default  */
+
+        width: 100%;
+        background-color: #efefef;}
+        p.example {
+        margin-top: 100px;}
+   
